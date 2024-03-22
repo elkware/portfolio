@@ -16,7 +16,7 @@ const Home = (): JSX.Element => {
                     I thrive in dynamic environments, leading sprints, streamlining processes, and sharing what I know through workshops or a casual coffee chat. Always ready to dive into the next project or puzzle, I'm looking to keep building, learning, and growing.
                 </p>
                 <p>Check out my full profile <a href='/profile'>here</a>.</p>
-                <p>Want to contact? Drop a message at <a href='mailto:hello@jozef.rocks'>here</a>, or check out my <a href='https://www.linkedin.com/in/jungjm/' target='_blank'>LinkedIn</a> profile.</p>
+                <p>Want to contact? Drop a message at <a href='mailto:hello@jozef.rocks'>here</a>, or check out my <a href='https://www.linkedin.com/in/jungjm/' target='_blank' rel='noreferrer'>LinkedIn</a> profile.</p>
                 <p>Let's make something cool together! 🚀</p>
 
             </article>

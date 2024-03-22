@@ -5,7 +5,7 @@ const Profile = (): JSX.Element => {
         <main className="container" style={{ textAlign: "justify" }}>
             <article>
                 <p>
-                    <img src='/self.jpg' style={{width: "130px", float: "left", borderRadius: "10px", marginRight: "1rem"}}></img>I am an experienced software engineer with more than a decade in the field, with extensive skills in software engineering, problem-solving, and solution implementation. Known for excellent interpersonal communication, team collaboration, and mentorship abilities. Self-motivated, organized, and resilient under pressure, I am committed to hard work, reliability, and continuous learning, always ready to tackle new challenges and technologies.
+                    <img src='/self.jpg' alt='Profile' style={{width: "130px", float: "left", borderRadius: "10px", marginRight: "1rem"}}></img>I am an experienced software engineer with more than a decade in the field, with extensive skills in software engineering, problem-solving, and solution implementation. Known for excellent interpersonal communication, team collaboration, and mentorship abilities. Self-motivated, organized, and resilient under pressure, I am committed to hard work, reliability, and continuous learning, always ready to tackle new challenges and technologies.
                 </p>
 
                 <h2>Skills overview</h2>
@@ -28,7 +28,7 @@ const Profile = (): JSX.Element => {
                     <strong>Versatile Toolset:</strong> Comfortable with a comprehensive suite of development tools, including IntelliJ IDEA, Visual Studio, Git, and Postman, for coding, version control, and API testing.
                 </p>
                 <h2>Education and certification</h2>
-                <p>2023: <a href='https://www.credly.com/badges/dca34939-b29f-4cf7-8477-fb0b123d6200' target='_blank'>AWS Certified Solutions Architect - Associate</a></p>
+                <p>2023: <a href='https://www.credly.com/badges/dca34939-b29f-4cf7-8477-fb0b123d6200' target='_blank' rel='noreferrer'>AWS Certified Solutions Architect - Associate</a></p>
                 <p>2012 - 2015: University of Novi Sad, Faculty of technical sciences - Master in Electrical and Computer Engineering</p>
                 <p>2005 - 2012: University of Novi Sad, Faculty of technical sciences - Bachelor with Honours in Electrical and Computer Engineering</p>
 

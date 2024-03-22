@@ -6,7 +6,6 @@ import Home from './components/Home';
 import Profile from './components/Profile';
 import Blog from './components/Blog';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Footer from './components/Footer';
 
 const router = createBrowserRouter(
   [
@@ -23,7 +22,7 @@ const router = createBrowserRouter(
       element: <Blog/>
     }, {
       path: "/*",
-      element: <div>ERRR</div>
+      element: <div className='container'><h1>404 Ooopsie</h1></div>
     }
   ]
 );
@@ -33,7 +32,6 @@ const App = () => {
     <>
       <Header />
       <RouterProvider router={router}/>
-      {/* <Footer /> */}
     </>
   );
 }
