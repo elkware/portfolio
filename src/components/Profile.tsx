@@ -1,6 +1,13 @@
+import { useEffect } from 'react';
 import './Profile.css';
+import { setTtile } from '../Utils';
 
 const Profile = (): JSX.Element => {
+
+    useEffect(() => {
+        setTtile(document, 'Profile - jozef.rocks!')
+    });
+
     return (
         <main className="container" style={{ textAlign: "justify" }}>
             <article>

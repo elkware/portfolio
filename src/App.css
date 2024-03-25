@@ -11,6 +11,7 @@
   word-wrap: normal;
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
+  font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
   margin-top: 0.3em;
 }
