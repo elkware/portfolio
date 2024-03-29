@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import './Home.css'
 import { setTtile } from '../Utils';
-import { setInterval, setTimeout } from 'timers';
 
 const Home = (): JSX.Element => {
 
