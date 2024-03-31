@@ -1,0 +1,24 @@
+{
+    "title": "Lessons Learned",
+    "description": "A collection of lessons learned from the past year.",
+    "tags": ["lessons", "learned", "2016"],
+    "date": "2016-12-31",
+    "sections": [
+        {
+            "title": "Don't be afraid to ask for help",
+            "content": "I've always been a bit of a lone wolf, but I've learned that it's okay to ask for help when you need it. Whether it's a friend, a family member, or a professional, there's no shame in reaching out for support."
+        },
+        {
+            "title": "Take care of yourself",
+            "content": "I've learned that self-care is crucial to my well-being. Whether it's getting enough sleep, eating well, or taking time to relax, I've realized that I can't be at my best if I'm not taking care of myself."
+        },
+        {
+            "title": "Don't sweat the small stuff",
+            "content": "I've learned that it's important to keep things in perspective. It's easy to get caught up in the little things, but in the grand scheme of things, they don't really matter. I've learned to let go of the things that don't really matter and focus on what's truly important."
+        },
+        {
+            "title": "Be grateful",
+            "content": "I've learned that gratitude is a powerful thing. Taking the time to appreciate the good things in my life has helped me to stay positive and keep things in perspective. I've learned that even on the worst days, there's always something to be grateful for."
+        }
+    ]
+}

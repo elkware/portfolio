@@ -2,3 +2,9 @@
     cursor: pointer;
     box-shadow: 0 0 1.2rem var(--pico-primary-focus);
 }
+
+.emptyblogarticle {
+    background-color: var(--pico-background);
+    border: none;
+    box-shadow: none;
+}
