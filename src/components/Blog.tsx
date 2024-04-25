@@ -7,7 +7,7 @@ import { JSX } from "react/jsx-runtime";
 const BREAK_AFTER = 4;
 
 
-const Blog = (): JSX.Element => {
+export const Blog = (): JSX.Element => {
 
     useEffect(() => {
         setTtile(document, "Blog - jozef.rocks!");
@@ -106,5 +106,3 @@ const Blog = (): JSX.Element => {
         </main>
     );
 }
-
-export default Blog;

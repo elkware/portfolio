@@ -1,10 +1,10 @@
 {
     "articles": [
         {
-            "title": "Article 1",
-            "subtitle": "This is the subtitle of article 1",
-            "summary": "This is the content of article 1",
-            "date": "2016-01-01",
+            "title": "Creating a portfolio website",
+            "subtitle": "2024-04-24",
+            "summary": "My journey to create a portfolio website with TypeScript and React.",
+            "date": "2024-04-24",
             "slug": "lessons_learned_creating_portfolio_website"
         },
         {

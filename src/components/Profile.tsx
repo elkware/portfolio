@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import './Profile.css';
 import { setTtile } from '../Utils';
 
-const Profile = (): JSX.Element => {
+export const Profile = (): JSX.Element => {
 
     useEffect(() => {
         setTtile(document, 'Profile - jozef.rocks!')
@@ -41,7 +41,11 @@ const Profile = (): JSX.Element => {
 
                 <h2>Experience</h2>
                 <h3>2021 - : Valcon, Novi Sad</h3>
-                <h4>2023 - : Halfords</h4>
+                <h4>2024 - : GroceryBuddy</h4>
+                <p>
+                Grocery Buddy is a platform that improves grocery shopping experiences by offering price comparisons and personalized store recommendations. In my role, I am responsible for developing the backend API in Java, which supports the core functionality of the application. Additionally, I implement web crawlers in Python to gather and update product data from various online sources, ensuring the system provides accurate and current information.
+                </p>
+                <h4>2023 - 2024: Halfords</h4>
                 <p>
                     Halfords, the UK's premier retailer specializing in automotive, cycling, and leisure products and services, has been my primary focus. My role centered on enhancing the point of sales application that manages the entire workflow from order placement to the installation of automotive parts. This application, developed in Java, streamlines operations and ensures a seamless transition through each phase of the customer service process.
                 </p>
@@ -103,5 +107,3 @@ const Profile = (): JSX.Element => {
         </main>
     );
 }
-
-export default Profile;

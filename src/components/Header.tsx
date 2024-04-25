@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 
 
-const Header = (): JSX.Element => {
+export const Header = (): JSX.Element => {
 
     const resolveTheme = () => {
         const theme = localStorage.getItem('theme');
@@ -50,5 +50,3 @@ const Header = (): JSX.Element => {
         </header>
     );
 };
-
-export default Header;

@@ -2,13 +2,12 @@ import { useEffect } from 'react';
 import './Home.css'
 import { setTtile } from '../Utils';
 
-const Home = (): JSX.Element => {
+export const Home = (): JSX.Element => {
 
     useEffect(() => {
         setTtile(document, "Home - jozef.rocks!");
     }, []);
 
-    
 
     return (
         <main className='container' >
@@ -32,5 +31,3 @@ const Home = (): JSX.Element => {
         </main>
     );
 }
-
-export default Home;
